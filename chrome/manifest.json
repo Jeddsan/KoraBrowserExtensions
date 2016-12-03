@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jeddsan Kora",
+  "description": "Jeddsan Kora, der smarte und sichere Assistent für jedes Gerät.",
+  "version": "1.0",
+  "version_name": "Beta 1.0",
+
+  "author":"Jeddsan",
+  "homepage_url":"https://www.jeddsan.ch/",
+  "short_name":"Kora",
+
+  "icons": {
+     "16": "icons/icon16.png",
+     "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "assistent.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "offline_enabled":false,
+  "permissions": [
+   "activeTab",
+   "geolocation",
+   "https://www.jeddsan.ch/*"
+   ]
+}
