@@ -1,0 +1,15 @@
+iframe{
+  border:none;
+}
+body{
+  padding: none;
+  background-color: #F0F0F0;
+}
+#input{
+  width: 100%;
+  font-size: 20pt;
+  font-family: Arial;
+  border: solid 1px black;
+  outline: none;
+  opacity: 0.99;
+}
